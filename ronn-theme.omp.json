@@ -68,6 +68,18 @@
           "template": " \uE718 {{ .Full }} "
         },
         {
+          "type": "ytm",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#FF0000",
+          "properties": {
+            "playing_icon": "\uE602 ",
+            "paused_icon": "\uF8E3 ",
+            "stopped_icon": "\uF04D "
+          }
+        },
+        {
           "background": "#48359E",
           "foreground": "#FFFFFF",
           "leading_diamond": "<transparent,#48359E>\ue0b0</>",
