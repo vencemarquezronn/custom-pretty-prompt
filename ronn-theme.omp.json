@@ -68,6 +68,34 @@
           "template": " \uE718 {{ .Full }} "
         },
         {
+          "type": "npm",
+          "style": "diamond",
+          "leading_diamond": "<transparent,#C53635>\ue0b0</>",
+          "trailing_diamond": "\ue0b0",
+          "foreground": "#ffffff",
+          "background": "#C53635",
+          "template": " \ue71e {{ .Full }} "
+        },
+        {
+          "type": "deno",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#3C82F6",
+          "leading_diamond": "<transparent,#3C82F6>\ue0b0</>",
+          "trailing_diamond": "\ue0b0",
+          "template": " \ufbe4 {{ .Full }} "
+        },
+        {
+          "type": "php",
+          "style": "diamond",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#4063D8",
+          "leading_diamond": "<transparent,#4063D8>\ue0b0</>",
+          "trailing_diamond": "\ue0b0",
+          "template": " \ue73d {{ .Full }} "
+        },
+        {
           "type": "ytm",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
